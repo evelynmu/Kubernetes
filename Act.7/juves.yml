@@ -18,7 +18,7 @@ spec:
         app: mydeploy
     spec:
       containers:
-      - image: httpd
+      - image: httpd:alpine
         name: httpd
         resources: {}
 status: {}
